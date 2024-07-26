@@ -1,0 +1,63 @@
+html{
+  height:100%;
+  width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(65, 65, 173);
+    color: whitesmoke;
+    font-family: "Ubuntu Mono", monospace, sans-serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: 3px solid goldenrod;
+}
+
+
+main {
+    margin: 0 auto;
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100vh;
+}
+
+#survey-form {
+    padding: 30px 60px;
+    max-width: 630px;
+    min-width: 300px;
+    background-color: rgb(65, 65, 173);
+    color: whitesmoke;
+    margin: 0 auto;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #333333;
+}
+
+span {
+  color: red;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+
+main p {
+    margin: 0;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+#submit:active {
+    background-color: rgb(173, 224, 255);
+}
